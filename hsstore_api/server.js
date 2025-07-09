@@ -6,7 +6,11 @@ import authRoutes from './routes/auth.js';
 dotenv.config();
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost', // libera pro Apache
+  methods: ['GET', 'POST'],
+  credentials: false
+}));
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
