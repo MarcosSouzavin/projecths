@@ -457,4 +457,6 @@ if (document.getElementById('jogosListagem')) {
     });
 }
 
+
+
 // ...restante do script.js permanece igual (não duplicar funções, só adicionar esta parte para jogos)
