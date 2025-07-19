@@ -6,7 +6,7 @@ export const MOCK_CONTAS = [
     jogos: ['FIFA', 'GTA', 'COD'],
     titulo: 'Conta PSN Premium',
     descricao: 'Conta original, com jogos FIFA, GTA e COD. Pronta para uso.',
-    img: 'assets/conta-psn.jpg'
+    img: '/assets/giftcard-psn.png'
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const MOCK_CONTAS = [
     jogos: ['Elden Ring', 'Cyberpunk 2077', 'CS:GO'],
     titulo: 'Conta Steam 25 Jogos',
     descricao: 'Mais de 25 jogos AAA. Ótima reputação.',
-    img: 'assets/conta-steam.jpg'
+    img: '/assets/conta-steam.jpg'
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const MOCK_CONTAS = [
     jogos: ['Forza', 'Halo', 'Minecraft'],
     titulo: 'Conta Xbox Ultimate',
     descricao: 'Com Forza, Halo e Minecraft. 1 ano Gold incluso.',
-    img: 'assets/conta-xbox.jpg'
+    img: '/assets/conta-xbox.jpg'
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const MOCK_CONTAS = [
     jogos: ['Spider-Man', 'God of War'],
     titulo: 'PSN Jogos Exclusivos',
     descricao: 'Jogos exclusivos da PlayStation. Entrega rápida.',
-    img: 'assets/conta-psn2.jpg'
+    img: '/assets/conta-psn2.jpg'
   }
 ];
 
@@ -45,7 +45,7 @@ export const MOCK_GIFTCARDS = [
     titulo: 'Gift Card Xbox R$100',
     descricao: 'Receba seu código na hora por e-mail.',
     preco: 95,
-    img: 'assets/giftcard-xbox.jpeg'
+    img: '/assets/giftcard-xbox.jpeg'
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ export const MOCK_GIFTCARDS = [
     titulo: 'Gift Card PSN R$50',
     descricao: 'Ideal para renovar sua Plus.',
     preco: 49,
-    img: 'assets/giftcard-psn.webp'
+    img: '/assets/giftcard-psn.webp'
   },
   {
     id: 3,
@@ -83,7 +83,7 @@ const MOCK_JOGOS = [
         preco: 119,
         nome: 'FIFA 24',
         descricao: 'Jogo original, ativação digital para PSN.',
-        img: 'assets/jogos/fifa24.jpg'
+        img: '/assets/jogos/fifa24.jpg'
     },
     {
         id: 2,
@@ -91,7 +91,7 @@ const MOCK_JOGOS = [
         preco: 179,
         nome: 'Elden Ring',
         descricao: 'Key Steam global.',
-        img: 'assets/jogos/eldenring.jpg'
+        img: '/assets/jogos/eldenring.jpg'
     },
     {
         id: 3,
@@ -99,7 +99,7 @@ const MOCK_JOGOS = [
         preco: 99,
         nome: 'Minecraft',
         descricao: 'Ativação via Xbox Live.',
-        img: 'assets/jogos/minecraft.jpg'
+        img: '/assets/jogos/minecraft.jpg'
     },
     {
         id: 4,
@@ -107,6 +107,6 @@ const MOCK_JOGOS = [
         preco: 39,
         nome: 'Among Us',
         descricao: 'Key para PC. Envio imediato.',
-        img: 'assets/jogos/amongus.jpg'
+        img: '/assets/jogos/amongus.jpg'
     }
 ];

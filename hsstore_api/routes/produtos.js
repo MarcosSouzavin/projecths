@@ -1,7 +1,12 @@
-import express from 'express';
-import { query } from '../db.js';
 
-const router = express.Router();
+import express from 'express';
+import path from 'path';
+
+const app = express();
+
+// Serve arquivos estáticos da pasta 'assets'
+app.use('/assets', express.static(path.resolve('assets')));
+
 
 // DESTACADOS
 router.get('/destaques', async (req, res) => {
